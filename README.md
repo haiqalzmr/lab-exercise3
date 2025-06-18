@@ -1,30 +1,25 @@
-# 🧠 Lab Exercise 3 – Supervised Machine Learning (Sentiment Analysis)
+# 🧠 Lab Exercise 3 – Social Media Opinion Mining (CDS-6344)
 
-This project is part of **CDS-6344: Social Media Computing** coursework.
+This project completes **Lab Exercise 3** based on **Tutorials 10 and 11** of the **CDS-6344 Social Media Computing** course.
 
-It addresses **Lab Exercise 3 – Question (c)**:  
-> **Implementation of at least one supervised machine learning algorithm**  
-> to classify sentiment from social media text.
+The task focuses on **sentiment analysis** using both **linguistic and machine learning techniques** on real-world social media text.
 
 ---
 
-## 📌 Objective
+## 📌 Lab Objectives
 
-To build a **supervised machine learning model** that classifies **airline-related tweets** into one of three sentiment categories:
-- **Positive**
-- **Neutral**
-- **Negative**
+Perform the following using a dataset of your choice (Twitter Airline Sentiment):
+
+### ✅ a) Dependency-Based Parsing / Aspect-Based Sentiment Analysis (ABSA)
+### ✅ b) Implementation of an Unsupervised Machine Learning Algorithm
+### ✅ c) Implementation of a Supervised Machine Learning Algorithm
 
 ---
 
-## 🗂 Dataset
+## 📂 Dataset
 
 **📊 Twitter US Airline Sentiment Dataset**  
-Source: [Kaggle - crowdflower/twitter-airline-sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)  
-Accessed in notebook via:
+- Source: [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)  
+- Contains ~14,000 tweets labeled as `positive`, `neutral`, or `negative`.
 
-```python
-!pip install kagglehub --quiet
-import kagglehub
-
-dataset_path = kagglehub.dataset_download("crowdflower/twitter-airline-sentiment")
+You can download it using `kagglehub`:
