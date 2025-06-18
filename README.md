@@ -1,4 +1,4 @@
-# 🧠 Lab Exercise 3 – Social Media Opinion Mining (CDS-6344)
+# 🧠 Lab Exercise 3 – Social Media Computing (CDS-6344)
 
 This project completes **Lab Exercise 3** based on **Tutorials 10 and 11** of the **CDS-6344 Social Media Computing** course.
 
