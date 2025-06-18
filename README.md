@@ -21,5 +21,3 @@ Perform the following using a dataset of your choice (Twitter Airline Sentiment)
 **📊 Twitter US Airline Sentiment Dataset**  
 - Source: [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)  
 - Contains ~14,000 tweets labeled as `positive`, `neutral`, or `negative`.
-
-You can download it using `kagglehub`:
